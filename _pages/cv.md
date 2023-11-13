@@ -11,22 +11,28 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computer Science, Universidad Nacional Autónoma de México, 2021
+* M.Eng. in Digital Signal Processing, Universidad Nacional Autónoma de México, 2016
+* B.S. in Applied Science, Instituto Politécnico Nacional, 2013
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* 2023 - in process: Research Associate
+  * CUAIEED - UNAM
+  * Primarily involved in conducting research and developing artificial intelligence-based applications in the fields of innovation, education and assessment.
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
+* 2021 - 2022: Project Leader
+  * CUAIEED - UNAM
+  * Development of virtual learning assistants for intelligent tutoring systems.
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+
+* 2018 - 2022: Teaching Assistant
+  * Facultad de Ingeniería
+  * Pattern recognition, Digital image processing
+
+
+
 Skills
 ======
 * Skill 1
