@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "short resume"
-permalink: /short resume/
+permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
