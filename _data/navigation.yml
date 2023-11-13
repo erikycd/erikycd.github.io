@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Main"
+    url: /
+
   - title: "CV"
     url: /cv/
 
