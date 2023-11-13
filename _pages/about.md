@@ -15,5 +15,5 @@ Main interests
 * Artificial intelligence
 * Natural language processing
 * Computer vision
-* EdTech
+* Educational Technology (EdTech)
 * Medical image analysis
