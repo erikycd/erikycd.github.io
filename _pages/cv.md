@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "short resume"
+permalink: /short resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -20,38 +20,36 @@ Work experience
 * 2023 - in process: Research Associate
   * CUAIEED - UNAM
   * Primarily involved in conducting research and developing artificial intelligence-based applications in the fields of innovation, education and assessment.
-  * Duties included: Tagging issues
+  * Duties included: Programming, teaching, networking, publication, thesis supervision, reviewing and peer evaluation.
 
 * 2021 - 2022: Project Leader
   * CUAIEED - UNAM
   * Development of virtual learning assistants for intelligent tutoring systems.
-  * Duties included: Merging pull requests
+  * Duties included: Planning, data processing, model development, model training, system monitoring, collaboration.
 
 * 2018 - 2022: Teaching Assistant
   * Facultad de Ingeniería
-  * Pattern recognition, Digital image processing
-
-
+  * Lectures on pattern recognition, digital image processing, medical image analysis
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* Latex
+* English (Full professional proficiency)
+* French (Limited working proficiency)
+
+Main interests
+======
+* Artificial intelligence
+* Natural language processing
+* Computer vision
+* Educational Technology (EdTech)
+* Medical image analysis
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
@@ -60,6 +58,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

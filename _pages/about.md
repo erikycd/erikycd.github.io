@@ -8,5 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a scientist with a track record in the field of computer science. Currently, I serve as an associate researcher at UNAM, spearheading projects focused mainly on artificial intelligence in education.
+I am a scientist with a track record in the field of computer science. Currently, I serve as an associate researcher at UNAM, spearheading projects focused mainly on artificial intelligence in education (AIEd).
 
+Main interests
+======
+* Artificial intelligence
+* Natural language processing
+* Computer vision
+* EdTech
+* Medical image analysis
