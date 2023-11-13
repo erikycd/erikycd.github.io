@@ -11,25 +11,26 @@ redirect_from:
 
 Education
 ------
-* Ph.D. in Computer Science, Universidad Nacional Autónoma de México, 2021
-* M.Eng. in Digital Signal Processing, Universidad Nacional Autónoma de México, 2016
-* B.S. in Applied Science, Instituto Politécnico Nacional, 2013
+* Ph.D. in Computer Science. Universidad Nacional Autónoma de México, 2021
+* M.Eng. in Digital Signal Processing. Universidad Nacional Autónoma de México, 2016
+* B.S. in Applied Science. Instituto Politécnico Nacional, 2013
 
 Work experience
 ------
-* 2023 - in process: Research Associate
-  * CUAIEED - UNAM
+* 2023 - in progress: Research Associate
+  * Coordinación de Universidad Abierta, Innovación Educativa y Educación a Distancia (CUAIEED) - UNAM
   * Primarily involved in conducting research and developing artificial intelligence-based applications in the fields of innovation, education and assessment.
   * Duties included: Programming, teaching, networking, publication, thesis supervision, reviewing and peer evaluation.
 
 * 2021 - 2022: Project Leader
-  * CUAIEED - UNAM
+  * B@UNAM - UNAM
   * Development of virtual learning assistants for intelligent tutoring systems.
   * Duties included: Planning, data processing, model development, model training, system monitoring, collaboration.
 
 * 2018 - 2022: Teaching Assistant
   * Facultad de Ingeniería
-  * Lectures on pattern recognition, digital image processing, medical image analysis
+  * Lectures on:
+    * Pattern recognition, Digital image processing and Medical image analysis
 
 Skills
 ------
