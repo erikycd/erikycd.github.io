@@ -12,8 +12,8 @@ I am a scientist with a track record in the field of computer science. Currently
 
 Main interests
 ======
-* Artificial intelligence
-* Natural language processing
-* Computer vision
-* Educational Technology (EdTech)
-* Medical image analysis
+* 👾 Artificial intelligence
+* 💬 Natural language processing
+* 👀 Computer vision
+* 📚 Educational Technology (EdTech)
+* 🏥 Medical image analysis
