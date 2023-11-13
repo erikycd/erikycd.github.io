@@ -2,9 +2,11 @@
 main:
   - title: "Main"
     url: /
+    # _pages/about.md
 
   - title: "CV"
     url: /cv/
+    # _pages/cd.md
 
   - title: "Publications"
     #url: /publications/
@@ -18,9 +20,10 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
+    # _portfolio/portfolio-1.md
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  #- title: "Blog Posts"
+  #  url: /year-archive/
     
   #- title: "Guide"
   #  url: /markdown/

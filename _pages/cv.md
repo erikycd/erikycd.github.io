@@ -10,13 +10,13 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+------
 * Ph.D. in Computer Science, Universidad Nacional Autónoma de México, 2021
 * M.Eng. in Digital Signal Processing, Universidad Nacional Autónoma de México, 2016
 * B.S. in Applied Science, Instituto Politécnico Nacional, 2013
 
 Work experience
-======
+------
 * 2023 - in process: Research Associate
   * CUAIEED - UNAM
   * Primarily involved in conducting research and developing artificial intelligence-based applications in the fields of innovation, education and assessment.
@@ -32,29 +32,18 @@ Work experience
   * Lectures on pattern recognition, digital image processing, medical image analysis
 
 Skills
-======
-* Python
-* Latex
+------
+* Python, Matlab, R, Git, SQL
+* Latex, Zotero, Jabref
+* Photoshop, Inkscape, GIMP
 * English (Full professional proficiency)
 * French (Limited working proficiency)
 
 Main interests
-======
+------
 * Artificial intelligence
 * Natural language processing
 * Computer vision
 * Educational Technology (EdTech)
 * Medical image analysis
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
