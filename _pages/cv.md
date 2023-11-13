@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "short resume"
+title: "Short resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, Universidad Nacional Autónoma de México, 2021
+* Ph.D. in Computer Science, Universidad Nacional Autónoma de México, 2021
 * M.Eng. in Digital Signal Processing, Universidad Nacional Autónoma de México, 2016
 * B.S. in Applied Science, Instituto Politécnico Nacional, 2013
 
