@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "ECD's website"
 title_separator          : "-"
-name                     : &name "ECD"
-description              : &description "AAA"
+name                     : &name "AAA"
+description              : &description "BBB"
 url                      : https://erikycd.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "erikycd/erikycd.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Erik Carbajal-Degante"
-  avatar           : "IMG_4321.jpeg"
+  avatar           : "IMG_4321.png"
   bio              : "AIEd researcher"
   location         : "CDMX - México"
   employer         : "CUAIEED - UNAM"
