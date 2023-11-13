@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "AIEd researcher"
   location         : "CDMX - México"
-  employer         :
+  employer         : "Universidad Nacional Autónoma de México"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.es/citations?user=7Bf-zB8AAAAJ&hl=es"
   email            :
@@ -107,7 +107,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  SPIE             : "https://spie.org/profile/Erik.Carbajal-Degante-253324?SSO=1"
   tumblr           :
   twitter          : # "replacethistwitterhandle"
   vine             :
