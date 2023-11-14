@@ -8,15 +8,15 @@ main:
     url: /cv/
     # Located in: _pages/cd.md
 
+  - title: "Teaching"
+    url: /teaching/   
+
   - title: "Publications"
     #url: /publications/
     url: "https://scholar.google.es/citations?user=7Bf-zB8AAAAJ&hl=es"
 
   #- title: "Talks"
-  #  url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+  #  url: /talks/     
     
   #- title: "Portfolio"
   #  url: /portfolio/
