@@ -18,7 +18,7 @@ Education
 Work experience
 ------
 * 2023 - in progress: Research Associate
-  * Coordinación de Universidad Abierta, Innovación Educativa y Educación a Distancia (CUAIEED) - UNAM
+  * CUAIEED - UNAM
   * Primarily involved in conducting research and developing artificial intelligence-based applications in the fields of innovation, education and assessment.
   * Duties included: Programming, teaching, networking, publication, thesis supervision, reviewing and peer evaluation.
 
@@ -28,9 +28,11 @@ Work experience
   * Duties included: Planning, data processing, model development, model training, system monitoring, collaboration.
 
 * 2018 - 2022: Teaching Assistant
-  * Facultad de Ingeniería
+  * Facultad de Ingeniería - UNAM
   * Lectures on:
-    * Pattern recognition, Digital image processing and Medical image analysis
+    * Pattern recognition
+    * Digital image processing 
+    * Medical image analysis
 
 Skills
 ------

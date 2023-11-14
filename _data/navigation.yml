@@ -2,11 +2,11 @@
 main:
   - title: "Main"
     url: /
-    # _pages/about.md
+    # Located in: _pages/about.md
 
   - title: "CV"
     url: /cv/
-    # _pages/cd.md
+    # Located in: _pages/cd.md
 
   - title: "Publications"
     #url: /publications/
@@ -15,8 +15,8 @@ main:
   #- title: "Talks"
   #  url: /talks/    
 
-  #- title: "Teaching"
-  #  url: /teaching/    
+  - title: "Teaching"
+    url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
