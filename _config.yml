@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "ECD's website"
 title_separator          : "-"
-name                     : &name "AAA"
+name                     : &name "ECD"
 description              : &description "BBB"
 url                      : https://erikycd.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

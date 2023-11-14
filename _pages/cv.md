@@ -37,13 +37,14 @@ Work experience
 Skills
 ------
 * Python, Matlab, R, Git, SQL
+* Frameworks: Tensorflow, Keras, Pytorch, Pandas, Matplotlib, Seaborn, Langchain, NLTK, Numpy, OpenCV
 * Latex, Zotero, Jabref
 * Photoshop, Inkscape, GIMP
 * English (Full professional proficiency)
 * French (Limited working proficiency)
 
 Main interests
-======
+------
 * 👾 Artificial intelligence
 * 💬 Natural language processing
 * 👀 Computer vision
