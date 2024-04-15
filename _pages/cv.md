@@ -12,9 +12,9 @@ redirect_from:
 Education
 ------
 * Ph.D. in Computer Science. Universidad Nacional Autónoma de México, 2021
-  * Thesis: A vector-valued multiphase active contour model
+  * Thesis: A vector-valued multiphase active contour model for image segmentation
 * M.Eng. in Digital Signal Processing. Universidad Nacional Autónoma de México, 2016
-  * Thesis: Caracterización de texeles invariante a rotación mediante la transformada Hermite Multiescala
+  * Thesis: Caracterización de texeles invariante a rotación mediante la transformada Hermite multiescala
 * B.S. in Applied Science. Instituto Politécnico Nacional, 2013
 
 Work experience
@@ -22,7 +22,7 @@ Work experience
 * 2023 - in progress: Research Associate
   * CUAED - UNAM
   * Primarily involved in conducting research and developing artificial intelligence-based applications in the fields of innovation, education and assessment.
-  * Duties included: Programming, teaching, networking, publication, thesis supervision, reviewing and peer evaluation.
+  * Duties included: Programming, teaching, networking, publication, thesis supervision, reviewing and evaluation.
 
 * 2021 - 2022: Project Leader
   * B@UNAM - UNAM
