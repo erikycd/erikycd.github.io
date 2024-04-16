@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive-taxonomy
 title: "Short resume"
 permalink: /cv/
 author_profile: true
@@ -62,7 +62,7 @@ elements = {
 # Create a dataframe with dictionary
 df = pd.DataFrame(list(elements.items()), columns=["Emoji", "Field"])
 
-# Show list
+# Show dataframe
 print("List of interests:")
 print(df)
 ```
