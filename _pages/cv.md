@@ -46,13 +46,6 @@ Skills
 * French (Limited working proficiency)
 
 Main interests
-------
-* 👾 Artificial intelligence
-* 💬 Natural language processing
-* 👀 Computer vision
-* 📚 Educational Technology (EdTech)
-* 🏥 Medical image analysis
-
 ```python
 import pandas as pd
 
