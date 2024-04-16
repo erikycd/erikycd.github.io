@@ -47,7 +47,6 @@ Skills
 
 Main interests
 ------
-<span style = "font-size: 2em;">
 ```python
 import pandas as pd
 
@@ -67,5 +66,4 @@ df = pd.DataFrame(list(elements.items()), columns=["Emoji", "Field"])
 print("List of interests:")
 print(df)
 ```
-</span>
 
