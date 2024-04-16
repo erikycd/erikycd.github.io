@@ -50,8 +50,8 @@ Main interests
 ```python
 import pandas as pd
 
-# Definir los elementos
-elementos = {
+# Define elements
+elements = {
     "👾": "Artificial intelligence",
     "💬": "Natural language processing",
     "👀": "Computer vision",
@@ -59,11 +59,11 @@ elementos = {
     "🏥": "Medical image analysis"
 }
 
-# Crear un DataFrame a partir del diccionario
-df = pd.DataFrame(list(elementos.items()), columns=["Emoji", "Campo"])
+# Create a dataframe with dictionary
+df = pd.DataFrame(list(elements.items()), columns=["Emoji", "Field"])
 
-# Mostrar la tabla
-print("Tabla de Elementos:")
+# Show list
+print("List of interests:")
 print(df)
 ```
 
