@@ -54,15 +54,22 @@ Main interests
 * 🏥 Medical image analysis
 
 ```python
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
-# authorization of consumer key and consumer secret
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-# set access to user's access key and access secret 
-auth.set_access_token(access_token, access_token_secret)
-# calling the api 
-api = tweepy.API(auth)
+import pandas as pd
+
+# Definir los elementos
+elementos = {
+    "👾": "Artificial intelligence",
+    "💬": "Natural language processing",
+    "👀": "Computer vision",
+    "📚": "Educational Technology (EdTech)",
+    "🏥": "Medical image analysis"
+}
+
+# Crear un DataFrame a partir del diccionario
+df = pd.DataFrame(list(elementos.items()), columns=["Emoji", "Campo"])
+
+# Mostrar la tabla
+print("Tabla de Elementos:")
+print(df)
 ```
 
