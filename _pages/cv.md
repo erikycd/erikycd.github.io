@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: compress
 title: "Short resume"
 permalink: /cv/
 author_profile: true
