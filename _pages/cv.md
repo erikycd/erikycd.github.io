@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: default
 title: "Short resume"
 permalink: /cv/
 author_profile: true
