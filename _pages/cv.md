@@ -46,6 +46,7 @@ Skills
 * French (Limited working proficiency)
 
 Main interests
+------
 ```python
 import pandas as pd
 
