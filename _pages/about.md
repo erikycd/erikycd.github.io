@@ -18,7 +18,5 @@ Main interests
 * 📚 Educational Technology (EdTech)
 * 🏥 Medical image analysis
 
-```html
 <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
 <script src="https://mediafiles.botpress.cloud/dca845ea-0d90-4d87-98a2-dc11307bf495/webchat/config.js" defer></script>
-```
