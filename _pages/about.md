@@ -18,22 +18,7 @@ Main interests
 * 📚 Educational Technology (EdTech)
 * 🏥 Medical image analysis
 
-```python
-import pandas as pd
-
-# Define elements
-elements = {
-    "👾": "Artificial intelligence",
-    "💬": "Natural language processing",
-    "👀": "Computer vision",
-    "📚": "Educational Technology (EdTech)",
-    "🏥": "Medical image analysis"
-}
-
-# Create a dataframe with dictionary
-df = pd.DataFrame(list(elements.items()), columns=["Emoji", "Field"])
-
-# Show dataframe
-print("List of interests:")
-print(df)
+```html
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/dca845ea-0d90-4d87-98a2-dc11307bf495/webchat/config.js" defer></script>
 ```
