@@ -67,5 +67,6 @@ print("List of interests:")
 print(df)
 ```
 
-<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-<script src="https://mediafiles.botpress.cloud/dca845ea-0d90-4d87-98a2-dc11307bf495/webchat/config.js" defer></script>
+<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2024/10/03/01/20241003011626-1GK9QXWZ.js"></script>
+    
