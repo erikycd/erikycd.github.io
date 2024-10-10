@@ -15,16 +15,14 @@ Capacitar a los participantes en el uso de la inteligencia artificial generativa
 
 Módulo 1: Introducción a la IA
 ------
-* Introducción a la inteligencia artificial (IA)
-* Inteligencia Artificial(IA)
+* Inteligencia artificial (IA) como disciplina
 * Elementos de la IA
 * Definiciones y tipos de aprendizaje de máquina
-* ¿Dedónde viene la IA generativa (IAGen) y cómo funciona?
+* ¿De dónde viene la IA generativa (IAGen) y cómo funciona?
 * Disciplinas de la IA
 
 Módulo 2: Sobre el diseño y gestión de proyectos
 ------
-* Disciplinas de la IA
 * Algunas aplicaciones del procesamiento de lenguaje natural
 * Modelos masivos de lenguaje (LLM)
 * Desarrollo de proyectos
@@ -55,7 +53,7 @@ Módulo 5: Siguientes subprocesos
 * Entorno SCRUM
 * ¿Detectando la IAGen?
 * Autonomía artificial: Dilemas éticos
-* Ética, transparencia y privacidad
+* Éxplicabilidad, transparencia y privacidad
 * IA abierta y responsable. Principios y recomendaciones
 * Recomendaciones IAGen en docencia [UNAM 2023](https://iagenedu.unam.mx/recomendaciones/)
 
