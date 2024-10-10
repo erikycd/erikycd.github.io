@@ -4,7 +4,7 @@ collection: teaching
 type: "Teacher-training course"
 permalink: /teaching/2024-IAGenEdu
 venue: "by CUAED, UNAM"
-date: 2024-01-01
+date: 2024-06-01
 location: "CDMX, México"
 language: "Español"
 ---
