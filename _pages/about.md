@@ -16,8 +16,8 @@ Main interests
 * 💬 Natural language processing
 * 👀 Computer vision
 * 📚 Educational Technology (EdTech)
-* 🏥 Medical image analysis
+* 🏥 Medical image analysis  
 
 <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/01/10/01/20250110015552-IJ53TDWZ.js"></script>
+<script src="https://files.bpcontent.cloud/2025/01/29/18/20250129184600-0XX3VBYS.js"></script>
     
