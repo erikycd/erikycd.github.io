@@ -19,7 +19,6 @@ Main interests
 * 🏥 Medical image analysis  
 
 
-<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/01/29/18/20250129184600-0XX3VBYS.js"></script>
-    
-    
+<script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/01/29/18/20250129184600-0XX3VBYS.js" defer></script>
+        
