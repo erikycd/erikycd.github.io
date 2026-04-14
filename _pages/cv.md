@@ -19,13 +19,18 @@ Education
 
 Work experience
 ------
-* 2023 - in progress: Research Associate
-  * CUAED - UNAM
-  * Primarily involved in conducting research and developing artificial intelligence-based applications in the fields of innovation, education and assessment.
+* 2026 - in progress: Research Associate
+  * [ICAT](https://www.icat.unam.mx/) (Instituto de Ciencias Aplicadas y Tecnología) - UNAM
+  * Primarily involved in conducting scientific research in Human-AI development.
+  * Duties included: Programming, teaching, networking, publication, thesis supervision, reviewing and evaluation.
+
+* 2023 - 2026: Research Associate
+  * [CUAED](https://cuaed.unam.mx/) (Coordinación de Universidad Abierta y Educación Digital) - UNAM
+  * Involved in conducting research in artificial intelligence-based applications in education.
   * Duties included: Programming, teaching, networking, publication, thesis supervision, reviewing and evaluation.
 
 * 2021 - 2022: Project Leader
-  * B@UNAM - UNAM
+  * B@UNAM (Bachillerato UNAM) - UNAM
   * Development of virtual learning assistants for intelligent tutoring systems.
   * Duties included: Planning, data processing, model development, model training, system monitoring, collaboration.
 
@@ -37,40 +42,18 @@ Work experience
     * Medical image analysis
 
 Skills
-------
+* AI: Langchain, Pydantic Tensorflow, Keras, Pytorch, LlamaIndex, CrewAI
 * Python, Matlab, R, Git, SQL
-* Frameworks: Tensorflow, Keras, Pytorch, Pandas, Matplotlib, Seaborn, Langchain, NLTK, Numpy, OpenCV
+* Frameworks: Pandas, Matplotlib, Seaborn, NLTK, Numpy, OpenCV
 * Latex, Zotero, Jabref
 * Photoshop, Inkscape, GIMP
 * English (Full professional proficiency)
 * French (Limited working proficiency)
 
-Main interests
-------
-```python
-import pandas as pd
 
-# Define elements
-elements = {
-    "👾": "Artificial intelligence",
-    "💬": "Natural language processing",
-    "👀": "Computer vision",
-    "📚": "Educational Technology (EdTech)",
-    "🏥": "Medical image analysis"
-}
-
-# Create a dataframe with dictionary
-df = pd.DataFrame(list(elements.items()), columns=["Emoji", "Field"])
-
-# Show dataframe
-print("List of interests:")
-print(df)
-```
-
-
-
-<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/01/29/18/20250129184600-0XX3VBYS.js"></script>
+<script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/01/29/18/20250129184600-0XX3VBYS.js" defer></script>
+    
     
     
     
