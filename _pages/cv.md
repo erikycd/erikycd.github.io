@@ -16,6 +16,7 @@ Education
 * M.Eng. in Digital Signal Processing. Universidad Nacional Autónoma de México, 2016
   * Thesis: Caracterización de texeles invariante a rotación mediante la transformada Hermite multiescala
 * B.S. in Applied Science. Instituto Politécnico Nacional, 2013
+  * Thesis: Reducción de ruido en señales mediante la transformada de Fourier en tiempo reducido
 
 Work experience
 ------
