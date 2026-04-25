@@ -16,31 +16,33 @@ Proporcionar al profesorado una introducción al paradigma de la Inteligencia Ar
 Tema 1: Redes sociales para agentes
 ------
 * Mooltbook: Una red social solo para agentes
-* Diseño de soul.md e identidad.md
-* Memoria de los agentes
+* ¿Qué son los archivos soul.md & identity.md?
+* Habilidades elementales de los agentes
 * Agentes como entidades sociales y organizacionales
 
 Tema 2: Agentes de IA en acción
 ------
 * ¿Qué hace realmente un agente en un sistema?
 * Uso de herramientas
-* Planificación innata (Técnicas autónomas de prompting)
+* Planificación innata: ¿Técnicas autónomas de *prompting*?
 * Autonomía artificial
-* La prueba de Turing invertida
+* La prueba de Turing invertida y otros test de máquina
 
 Tema 3: Tipos de agentes y arquitecturas
 ------
 * Clasificación de los agentes
-* Diseño de agentes: PEAS vs BDI
-* Arquitecturas clásicas y modernas
+* Diseño de agentes: Metodología PEAS & BDI
+* Arquitecturas clásicas, modernas y contemporaneas
 * Ecosistemas multiagente
 
 Tema 4: Paradigmas y futuro de la IA agéntica
 ------
-* Generativa vs Agéntica
+* Discriminativa vs Generativa vs Agéntica
 * El paradigma *AgenticAI*
-* *Checklist* de identificacion de sistemas agénticos
-* Ética y governanza
+* La relevancia de enfoques educativos en paradigmas emergentes
+* *Checklist* para la identificacion de sistemas agénticos
+* El marco FATE: Fairness, Accountability, Transparency, Explainability
+* Tendencias hacia un mundo de AGI (Artificial General Intelligence)
 
 Referencias:
 ------
