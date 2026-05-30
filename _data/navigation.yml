@@ -6,24 +6,20 @@ main:
 
   - title: "CV"
     url: /cv/
-    # Located in: _pages/cd.md
-
-  - title: "Teaching"
-    url: /teaching/   
+    # Located in: _pages/cv.md
 
   - title: "Publications"
-    #url: /publications/
-    url: "https://scholar.google.es/citations?user=7Bf-zB8AAAAJ&hl=es"
+    url: /publications/
+    # Located in: _pages/publications.md
+
+  - title: "Teaching"
+    url: /teaching/
 
   #- title: "Talks"
-  #  url: /talks/     
-    
+  #  url: /talks/
+
   #- title: "Portfolio"
   #  url: /portfolio/
-    # _portfolio/portfolio-1.md
-        
+
   #- title: "Blog Posts"
   #  url: /year-archive/
-    
-  #- title: "Guide"
-  #  url: /markdown/
