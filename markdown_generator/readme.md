@@ -18,7 +18,6 @@ python3 markdown_generator/google_scholar_featured_publications.py \
 Monthly execution example (cron):
 
 ```bash
-0 3 1 * * cd /tmp/workspace/erikycd/erikycd.github.io && python3 markdown_generator/google_scholar_featured_publications.py --scholar-url "https://scholar.google.es/citations?user=7Bf-zB8AAAAJ&hl=es" --top 5
+0 3 1 * * cd /path/to/erikycd.github.io && python3 markdown_generator/google_scholar_featured_publications.py --scholar-url "https://scholar.google.es/citations?user=7Bf-zB8AAAAJ&hl=es" --top 5
 ```
-
 

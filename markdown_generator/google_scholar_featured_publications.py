@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import heapq
 import re
 import sys
 from pathlib import Path
@@ -111,7 +112,7 @@ def extract_scholar_user_id(profile_url: str) -> str:
     query = parse_qs(parsed.query)
     user_ids = query.get("user")
     if not user_ids:
-        raise ValueError("No se encontró el parámetro 'user' en la URL de Google Scholar.")
+        raise ValueError("The Google Scholar URL must include a 'user' query parameter.")
     return user_ids[0]
 
 
@@ -127,23 +128,23 @@ def main() -> int:
     default_output = repo_root / "_data" / "featured_publications.yml"
 
     parser = argparse.ArgumentParser(
-        description="Obtiene las 5 publicaciones más citadas desde Google Scholar."
+        description="Fetch top-cited publications from a Google Scholar profile."
     )
     parser.add_argument(
         "--scholar-url",
         required=True,
-        help="URL completa del perfil de Google Scholar.",
+        help="Full Google Scholar profile URL.",
     )
     parser.add_argument(
         "--top",
         type=int,
         default=5,
-        help="Cantidad de publicaciones top a exportar (por defecto: 5).",
+        help="Number of top publications to export (default: 5).",
     )
     parser.add_argument(
         "--output",
         default=str(default_output),
-        help="Ruta de salida del archivo YAML.",
+        help="Output YAML file path.",
     )
     args = parser.parse_args()
 
@@ -151,15 +152,19 @@ def main() -> int:
     profile_html = fetch_text(build_profile_url(user_id))
     publications = parse_profile_publications(profile_html)
     if not publications:
-        raise RuntimeError("No se encontraron publicaciones en el perfil de Google Scholar.")
+        raise RuntimeError("No publications found in the Google Scholar profile.")
 
-    top_publications = sorted(publications, key=lambda item: item["citations"], reverse=True)[: args.top]
+    top_publications = heapq.nlargest(args.top, publications, key=lambda item: item["citations"])
 
     for pub in top_publications:
         try:
             details_html = fetch_text(pub["details_url"])
             pub["doi"] = parse_doi(details_html)
-        except Exception:
+        except Exception as exc:
+            print(
+                f"Warning: DOI lookup failed for '{pub['title']}': {exc}",
+                file=sys.stderr,
+            )
             pub["doi"] = None
 
     top_publications.sort(key=lambda item: (item["year"], item["citations"]), reverse=True)
@@ -168,8 +173,8 @@ def main() -> int:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(to_yaml(top_publications), encoding="utf-8")
 
-    print(f"Archivo generado: {output_path}")
-    print(f"Publicaciones exportadas: {len(top_publications)}")
+    print(f"Generated file: {output_path}")
+    print(f"Exported publications: {len(top_publications)}")
     return 0
 
 

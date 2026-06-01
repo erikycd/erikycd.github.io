@@ -11,9 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign highlighted_pubs = site.data.featured_publications | sort: "citations" | reverse | slice: 0, 5 %}
-{% assign highlighted_pubs = highlighted_pubs | sort: "year" | reverse %}
-{% assign current_year = "" %}
+{% assign highlighted_pubs = site.data.featured_publications %}
+{% assign current_year = nil %}
 {% for pub in highlighted_pubs %}
 {% if pub.year != current_year %}
 <h3>{{ pub.year }}</h3>
