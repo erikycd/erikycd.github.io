@@ -8,6 +8,10 @@ main:
     url: /cv/
     # Located in: _pages/cv.md
 
+  - title: "Thesis"
+    url: /thesis/
+    # Located in: _pages/thesis.md
+
   - title: "Publications"
     url: /publications/
     # Located in: _pages/publications.md
