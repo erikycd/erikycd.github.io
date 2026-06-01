@@ -6,11 +6,20 @@ author_profile: true
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+  You can also find my full publication list on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% assign highlighted_pubs = site.data.featured_publications | sort: "citations" | reverse %}
+{% for pub in highlighted_pubs %}
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <h2 class="archive__item-title" itemprop="headline">{{ pub.title }}</h2>
+  <p class="archive__item-excerpt" itemprop="description">
+    {{ pub.authors }} ({{ pub.year }}). <em>{{ pub.venue }}</em>.<br>
+    {% if pub.citations %}<strong>Citations:</strong> {{ pub.citations }}<br>{% endif %}
+    {% if pub.doi %}<strong>DOI:</strong> <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a><br>{% endif %}
+    {% if pub.url %}<strong>Link:</strong> <a href="{{ pub.url }}">{{ pub.url }}</a>{% endif %}
+  </p>
+</article>
 {% endfor %}
