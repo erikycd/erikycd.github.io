@@ -1,7 +1,29 @@
+- title: "DeepReg: a deep learning hybrid model for predicting transcription factors in eukaryotic and prokaryotic genomes"
+  authors: "L Ledesma-Dominguez, E Carbajal-Degante, G Moreno-Hagelsieb, ..."
+  year: 2024
+  venue: "Scientific Reports 14 (1), 9155, 2024"
+  citations: 11
+
+- title: "La inteligencia artificial generativa y la educación universitaria"
+  authors: "M Sánchez-Mendiola, E Carbajal-Degante"
+  year: 2023
+  venue: "Perfiles Educativos 45 (Especial), 70-86, 2023"
+  citations: 148
+
+- title: "Inteligencia artificial generativa para fortalecer la educación superior: Generative artificial intelligence to boost higher education"
+  authors: "MEC Solís, EL Martínez, E Carbajal-Degante, EP Godoy, YA Martínez"
+  year: 2023
+  venue: "LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades 4 (3), 767 …, 2023"
+  citations: 90
+
+- title: "Hacia revisiones de la literatura más eficientes potenciadas por inteligencia artificial"
+  authors: "E Carbajal-Degante, MH Gutiérrez, M Sánchez-Mendiola"
+  year: 2023
+  venue: "Investigación en Educación Médica 12 (47), 111-119, 2023"
+  citations: 37
+
 - title: "What is new in computer vision and artificial intelligence in medical image analysis applications"
-  authors: "José Carlos Moreno-Tagle, Erik Carbajal-Degante, Alejandro Valencia-Rodríguez, et al."
+  authors: "J Olveres, G González, F Torres, JC Moreno-Tagle, E Carbajal-Degante, ..."
   year: 2021
-  venue: "Quantitative Imaging in Medicine and Surgery"
-  citations: 66
-  doi: "10.21037/QIMS-20-1151"
-  url: "https://doi.org/10.21037/QIMS-20-1151"
+  venue: "Quantitative imaging in medicine and surgery 11 (8), 3830, 2021"
+  citations: 137

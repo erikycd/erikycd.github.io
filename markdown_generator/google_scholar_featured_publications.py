@@ -34,35 +34,45 @@ def clean_text(value: str) -> str:
 
 
 def parse_profile_publications(html_doc: str) -> list[dict[str, Any]]:
-    rows = re.findall(r'<tr class="gsc_a_tr".*?>(.*?)</tr>', html_doc, flags=re.S)
+    rows = re.findall(
+        r'<tr[^>]*class="[^"]*\bgsc_a_tr\b[^"]*"[^>]*>(.*?)</tr>',
+        html_doc,
+        flags=re.S,
+    )
     publications: list[dict[str, Any]] = []
 
     for row in rows:
-        title_match = re.search(
-            r'<a class="gsc_a_at" href="([^"]+)">(.*?)</a>',
+        title_anchor_match = re.search(
+            r'<a[^>]*class="[^"]*\bgsc_a_at\b[^"]*"[^>]*>(.*?)</a>',
             row,
             flags=re.S,
         )
-        if not title_match:
+        if not title_anchor_match:
+            continue
+
+        title_anchor_html = title_anchor_match.group(0)
+        href_match = re.search(r'href="([^"]+)"', title_anchor_html, flags=re.S)
+        title_text_match = re.search(r'>(.*?)</a>', title_anchor_html, flags=re.S)
+        if not href_match or not title_text_match:
             continue
 
         meta_blocks = re.findall(r'<div class="gs_gray">(.*?)</div>', row, flags=re.S)
         citations_match = re.search(
-            r'<a[^>]*class="gsc_a_ac[^"]*"[^>]*>(\d+)</a>',
+            r'<a[^>]*class="[^"]*\bgsc_a_ac\b[^"]*"[^>]*>(\d*)</a>',
             row,
             flags=re.S,
         )
         year_match = re.search(r'<span[^>]*>(\d{4})</span>', row, flags=re.S)
 
-        href = title_match.group(1)
+        href = html.unescape(href_match.group(1))
         details_url = urljoin(SCHOLAR_BASE_URL, href)
 
         publications.append(
             {
-                "title": clean_text(title_match.group(2)),
+                "title": clean_text(title_text_match.group(1)),
                 "authors": clean_text(meta_blocks[0]) if len(meta_blocks) > 0 else "",
                 "venue": clean_text(meta_blocks[1]) if len(meta_blocks) > 1 else "",
-                "citations": int(citations_match.group(1)) if citations_match else 0,
+                "citations": int(citations_match.group(1)) if citations_match and citations_match.group(1) else 0,
                 "year": int(year_match.group(1)) if year_match else 0,
                 "details_url": details_url,
             }
