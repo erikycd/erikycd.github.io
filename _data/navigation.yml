@@ -19,6 +19,9 @@ main:
   - title: "Teaching"
     url: /teaching/
 
+  - title: "AgenticProject"
+    url: /agenticproject/
+
   #- title: "Talks"
   #  url: /talks/
 
