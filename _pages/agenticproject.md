@@ -5,9 +5,9 @@ permalink: /agenticproject/
 author_profile: true
 ---
 
-## EduAgentic: Objetivo del proyecto
-
 ![Illustration](/images/agent_1.png)
+
+## EduAgentic: Objetivo del proyecto
 
 EduAgentic busca construir un asistente educativo basado en Retrieval-Augmented Generation (RAG) y agentes de IA para ofrecer apoyo al aprendizaje de forma precisa, contextual y explicable.
 
